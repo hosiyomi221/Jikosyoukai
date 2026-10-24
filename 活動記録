@@ -1,0 +1,42 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>活動記録</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:linear-gradient(135deg,#172b3a,#263f52);color:#f4f8fb;font-family:sans-serif;font-size:18px;line-height:1.8}
+main{width:100%;max-width:800px;margin:20px auto;padding:24px;background:rgba(255,255,255,.04);border:1px solid rgba(175,223,228,.35);border-radius:16px}
+h1,h2{color:#AFDFE4}
+h1{font-size:clamp(26px,4vw,34px)}
+.item{margin:18px 0;padding:16px;border:1px solid #315c75;border-radius:12px;overflow-wrap:anywhere}
+.date{color:#AFDFE4;font-size:15px}
+a{color:#AFDFE4;text-decoration:none}
+a:hover{color:#fff;text-decoration:underline}
+.back{display:inline-block;margin-top:20px;padding:10px 16px;border:1px solid #AFDFE4;border-radius:10px}
+@media(max-width:600px){body{padding:10px}main{margin:12px auto;padding:16px}.item{padding:12px}}
+</style>
+</head>
+<body>
+<main>
+<h1>活動記録</h1>
+<p>HTMLの更新履歴や、youtubeでの動画投稿の履歴などをまとめています。</p>
+
+<div class="item">
+<div class="date">10月24日</div>
+<h2>機能追加</h2>
+<p>自己紹介ページに活動記録及び、作品集を追加しました</p>
+</div>
+
+<div class="item">
+<div class="date">10月24日</div>
+<h2>ページ追加</h2>
+<p>youtubeチャンネルをまとめたページを作成しました</p>
+</div>
+
+<p><a class="back" href="index.html">← 自己紹介ページに戻る</a></p>
+</main>
+</body>
+</html>
