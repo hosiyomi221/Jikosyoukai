@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>制作物・作品集</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:linear-gradient(135deg,#172b3a,#263f52);color:#f4f8fb;font-family:sans-serif;font-size:18px;line-height:1.8}
+main{width:100%;max-width:800px;margin:20px auto;padding:24px;background:rgba(255,255,255,.04);border:1px solid rgba(175,223,228,.35);border-radius:16px}
+h1,h2{color:#AFDFE4}
+h1{font-size:clamp(26px,4vw,34px)}
+.work{margin:20px 0;padding:16px;border:1px solid #315c75;border-radius:12px;overflow-wrap:anywhere}
+.work img{display:block;width:100%;max-width:500px;height:auto;margin:12px auto;border-radius:10px}
+a{color:#AFDFE4;text-decoration:none}
+a:hover{color:#fff;text-decoration:underline}
+.back{display:inline-block;margin-top:20px;padding:10px 16px;border:1px solid #AFDFE4;border-radius:10px}
+@media(max-width:600px){body{padding:10px}main{margin:12px auto;padding:16px}.work{padding:12px}}
+</style>
+</head>
+<body>
+<main>
+<h1>制作物・作品集</h1>
+<p>今までに作った作品をまとめています。</p>
+
+<div class="work">
+<h2>デルミンと夏祭り</h2>
+
+<!-- 画像を載せる場合は、下のコメントを外して画像のファイル名を入れてね -->
+<!-- <img src=.png alt="作品の説明"> -->
+
+<p>ここに作品の説明を書く</p>
+</div>
+
+<p><a class="back" href="index.html">← 自己紹介ページに戻る</a></p>
+</main>
+</body>
+</html>
