@@ -26,11 +26,7 @@ a:hover{color:#fff;text-decoration:underline}
 <div class="work">
 <h2>デルミンと夏祭り</h2>
 
-<!-- 画像を載せる場合は、下のコメントを外して画像のファイル名を入れてね -->
-<!-- <img src=.png alt="作品の説明"> -->
-
-<p>ここに作品の説明を書く</p>
-</div>
+<!-- <img src=デルミンと夏祭り.png 
 
 <p><a class="back" href="index.html">← 自己紹介ページに戻る</a></p>
 </main>
