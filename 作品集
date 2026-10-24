@@ -22,12 +22,10 @@ a:hover{color:#fff;text-decoration:underline}
 <main>
 <h1>制作物・作品集</h1>
 <p>今までに作った作品をまとめています。</p>
-
 <div class="work">
 <h2>デルミンと夏祭り</h2>
-
-<!-- <img src=デルミンと夏祭り.png 
-
+<img src="デルミンと夏祭り.png" alt="デルミンと夏祭り">
+</div>
 <p><a class="back" href="index.html">← 自己紹介ページに戻る</a></p>
 </main>
 </body>
